@@ -1,0 +1,85 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "TruongHub | official ", HidePremium = false, SaveConfig = true, ConfigFolder = "TruongHub"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Main"
+})
+
+local Tab = Window:MakeTab({
+	Name = "setting",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "setting"
+})
+
+local Tab = Window:MakeTab({
+	Name = "stats",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "stats"
+})
+
+local Tab = Window:MakeTab({
+	Name = "players",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "players"
+})
+
+local Tab = Window:MakeTab({
+	Name = "island",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "island"
+})
+
+local Tab = Window:MakeTab({
+	Name = "Fruit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Fruit"
+})
+
+local Tab = Window:MakeTab({
+	Name = "Race",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Race v4"
+})
+
+local Tab = Window:MakeTab({
+	Name = "Music",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Music"
+})
+
+
+
+OrionLib:Init()
